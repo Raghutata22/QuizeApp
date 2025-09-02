@@ -1,0 +1,43 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9fafb;
+  color: #111;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.btn {
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background: #2563eb;
+  color: white;
+}
+
+.btn-outline {
+  border: 1px solid #2563eb;
+  color: #2563eb;
+  background: white;
+}
